@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+    <head>
+        <title>RESUME_MAIN</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!------------------------------------------------------------------------------------------------------------------>
+        <!------------------------------------------------------CSS--------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+        <link rel="stylesheet" href="../static/css/index.css">
+        <!------------------------------------------------------------------------------------------------------------------>
+        <!-------------------------------------------------------JS--------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="../static/js/index.js"></script>
+    </head>
+
+    <body style="height:1500px">
+        <!------------------------------------------------------------------------------------------------------------------>
+        <!----------------------------------------------------NAV BAR------------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------>
+        <nav class="navbar navbar-default navbar-expand-lg fixed-top animate__animated animate__fadeInLeft " >
+          <a class="navbar-brand" href="#">HABEEN'S RESUME</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style=" float:right; width:37px;"><img src="../static/img/toggle_bt.png" style="width:35px;"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#" >홈<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">자기소개</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">포트폴리오</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">관심분야</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">입사 후 포부</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>       
+        <!------------------------------------------------------------------------------------------------------------------>
+        <!---------------------------------------------------JUMBOTRON------------------------------------------------------>
+        <!------------------------------------------------------------------------------------------------------------------>
+        <div class="jumbotron full-width">
+           <div class="container pull-left caption col-md-12 col-sm-6 col-xs-6 animate__animated animate__fadeInLeft" style="animation-delay: 500ms;">
+              <p id="jtitle">
+                <o id="jtitle_emphasis">'전등'</o>
+                같은 개발자를 꿈꾸는 <br>
+                <o id="brace">&#123;</o>
+                <o id="jtitle_name">남하빈</o>
+                <o id="brace">&#125;</o>
+                입니다!
+              </p>
+           </div>
+        </div>
+        <!------------------------------------------------------------------------------------------------------------------>
+        <!--------------------------------------------------자기소개 ABOUT--------------------------------------------------->
+        <!------------------------------------------------------------------------------------------------------------------>
+        <section class="page-section sec" id="about" >
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">자기소개</h2>
+                </div>
+                <div class="container-fluid cxt-padded bg-faded">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 text-md-left text-center">
+                        <img class="rounded-circle" src="../static/img/il_face.png" style="width: 300px; border: black solid 2px;">
+                        </div>
+                        <div class="col-md-10 text-md-left">
+                            <p class="lead">
+                                <o id="sub_t">이름<br></o>
+                                남하빈&nbsp;&#40;NAM HA BEEN&#41;<br>
+                                <br>
+                                <o id="sub_t">거주지<br></o>
+                                서울특별시 중구 동호로18길 28 장충아트빌라17차 301호<br>
+                                <br>
+                                <o id="sub_t">E-MAIL<br></o>
+                                s2018s27@e-mirim.hs.kr<br>
+                                <br>
+                                <o id="sub_t">전화번호<br></o>
+                                +82 10-7102-4350<br>
+                                <br>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="btn" >
+                                    자세히 보기
+                                </button>
+                                <button type="button"class="btn btn-primary" data-toggle="modal"  id="btn" style="margin-left:3%;">
+                                    <a href="../static/pdf/resume.pdf" download>PDF 이력서 보기</a>
+                                </button>
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog modal-lg">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <h1 class="modal-title">자기소개</h1>
+                                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                            <img  src="../static/img/face.jpg" style="width: 320px; margin-left: 3%; margin-top:20%;" >
+                                            <div class="modal-body">
+                                                <o id="sub_t">이름<br></o>
+                                                남하빈&nbsp;&#40;NAM HA BEEN&#41;<br>
+                                                <br>
+                                                <o id="sub_t">거주지<br></o>
+                                                서울특별시 중구 동호로18길 28 장충아트빌라17차 301호<br>
+                                                <br>
+                                                <o id="sub_t">E-MAIL<br></o>
+                                                s2018s27@e-mirim.hs.kr<br>
+                                                <br>
+                                                <o id="sub_t">전화번호<br></o>
+                                                +82 10-7102-4350<br>
+                                                <br>
+                                                <o id="sub_t">학력<br></o>
+                                                청구초등학교 졸업<br>
+                                                창덕여자중학교 졸업<br>
+                                                미림여자정보과학고등학교 뉴미디어소프트웨어과 재학<br>
+                                                <br>
+                                                <o id="sub_t">저는 이런 사람입니다:D<br></o>
+                                                1. 밝고 긍정적인 성격을 가진 사람<br>
+                                                2. 문제 해결을 위해 아낌없이 시간을 투자하며, 다양한 방법으로 이를 해결해 나아가는 사람<br>
+                                                3. 타인을 존중하고 배려하는 것을 우선시하는 사람<br>
+                                                <br>
+                                            </div>
+                                        <div class="modal-footer">
+                                          <button type="button" class="btn btn-danger" data-dismiss="modal" id="btn">닫기</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
