@@ -144,7 +144,6 @@ a:hover { color: white; text-decoration: underline;}
 }
 
 .progress{
-    width:100%;
     height:30px;
     margin-top:5%;
 }
