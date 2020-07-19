@@ -9,6 +9,10 @@ $(document).ready(function(){
         }
         else{
             $(".navbar").css({"background":"none"});
+            $(".navbar").css({"min-width":"100%"});   
+            $(".navbar").css({"margin-top":"0px"}); 
+            $(".nav-link").css({"color":"white"});
+            $(".navbar-brand").css({"color":"white"}); 
         }
 
     })
