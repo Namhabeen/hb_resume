@@ -131,16 +131,16 @@ a:hover { color: white; text-decoration: underline;}
   font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     content: '>';
-    color:rgb(245, 221, 3);
-    font-size:40px;
+    color:black;
+    font-size:50px;
 }
 
 .carousel-control-prev-icon:after {
  \font-family: 'Noto Sans KR', sans-serif;
     font-weight: 900;
     content: '<';
-    color:rgb(245, 221, 3);
-    font-size:40px;
+    color:black;
+    font-size:50px;
 }
 
 
