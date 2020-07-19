@@ -1,3 +1,0 @@
-$(funstion){
-    AOS.init();
-}
