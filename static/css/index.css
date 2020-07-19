@@ -155,13 +155,15 @@ a:hover { color: white; text-decoration: underline;}
         position: relative;
         margin-top:0%;
         margin-left:0%;
+        width:300px;
     }   
 
     .navbar{
         font-family: 'Noto Sans KR', sans-serif;
         background: rgb(245, 221, 3);
         margin-top:0px;
-        width:100%;
+        min-width:100%;
+        margin-left:0%;
     } 
     
     #il_face{
