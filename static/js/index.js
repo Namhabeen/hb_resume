@@ -1,11 +1,15 @@
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-      var scroll = $(window).scrollTop(); 
-      if(scroll>1){ 
-        $(".navbar").css("background","rgb(245, 221, 3)"); 
-      } 
-      else{ 
-        $(".navbar").css("background","none"); 
-      } 
-    }) 
-  })
+$(document).ready(function(){       
+    var scroll_start = 0;
+    var startchange = $('#about');
+    var offset = startchange.offset();
+     if (startchange.length){
+    $(document).scroll(function() { 
+       scroll_start = $(this).scrollTop();
+       if(scroll_start > offset.top) {
+           $(".navbar-default").css('background-color', 'black');
+        } else {
+           $('.navbar-default').css('background-color', 'transparent');
+        }
+    });
+     }
+ });
