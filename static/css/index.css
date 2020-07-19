@@ -113,6 +113,10 @@ li{
     font-weight: 900;
 }
 
+#btn:hover{
+    color:black;
+}
+
 .abtn{
     margin-left:3%;
 }
@@ -154,6 +158,7 @@ a:hover { color: white; text-decoration: underline;}
     font-weight: 700;
     color:black;
 }
+
 
 @media (min-width: 320px) and (max-width: 480px) {
 
