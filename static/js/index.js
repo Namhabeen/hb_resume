@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if($(window).scrollTop() > $(window).height()){
-            $(".navbar").css({"background-color":"transparent"});   
+            $(".navbar").css({"background-color":"yellow"});   
         }
         else{
-            $(".navbar").css({"background-color":"white"});
+            $(".navbar").css({"background":"none"});
         }
 
     })
