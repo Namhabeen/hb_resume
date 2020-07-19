@@ -120,7 +120,9 @@ li{
 .abtn{
     margin-left:3%;
 }
-
+a:hover{
+    color:black;
+}
 a:link { color:white; text-decoration: none;}
 a:visited { color: white; text-decoration: none;}
 a:hover { color: white; text-decoration: underline;}
