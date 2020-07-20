@@ -1,4 +1,6 @@
+AOS.init();
 
+$(document).ready(function() { alert("Internet Explorer보다 Chrome 사용을 권장합니다! (Explorer 사용시 pdf 다운을 지원하지 않습니다.)"); });
 
 $(document).ready(function(){
     $(window).scroll(function(){
